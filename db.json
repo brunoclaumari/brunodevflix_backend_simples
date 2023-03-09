@@ -1,0 +1,63 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Bandas e Músicas Legais",
+      "cor": "#6BD1FF"
+    },
+    {
+      "id": 2,
+      "titulo": "Back End",
+      "cor": "#00C86F"
+    },
+    {
+      "titulo": "Front End",
+      "cor": "#801e1e",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "titulo": "Cavaleiros do Zodiaco",
+      "cor": "#00ffff"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "description": "Bruno na viola",
+      "titulo": "Vejam um video meu tocando!!!Faz tempo",
+      "url": "https://www.youtube.com/watch?v=gXOwa66vpMw"
+    },
+    {
+      "titulo": "Vídeo padrão",
+      "url": "https://www.youtube.com/watch?v=4cEMgap9wpk",
+      "categoriaId": 1,
+      "id": 2
+    },
+    {
+      "titulo": "John Petrucci - GlasgowKiss",
+      "url": "https://www.youtube.com/watch?v=CFXvfBL4WkU",
+      "categoriaId": 1,
+      "id": 3
+    },
+    {
+      "titulo": "Vídeo padrão",
+      "url": "https://www.youtube.com/watch?v=4cEMgap9wpk",
+      "categoriaId": 3,
+      "id": 4
+    },
+    {
+      "titulo": "Necessário - Oficina G3",
+      "url": "https://www.youtube.com/watch?v=HLiZYADBjQI",
+      "categoriaId": 1,
+      "id": 5
+    },
+    {
+      "titulo": "Os Cavaleiros Do Zodíaco Hades a Saga Dos Elísios | DUBLADO • CDZ",
+      "url": "https://www.youtube.com/watch?v=NCBv_EWVJvg",
+      "categoriaId": 4,
+      "id": 6
+    }
+  ]
+}

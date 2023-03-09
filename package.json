@@ -1,0 +1,15 @@
+{
+  "name": "brunodevflix_backend",
+  "version": "1.0.0",
+  "description": "backend projeto brunodevflix",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js"
+  },
+  "author": "Bruno de Sousa Silva",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.2"
+  }
+}
