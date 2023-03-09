@@ -1,0 +1,29 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "server.js",
+            "use": "@now/node-server"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        },
+        {
+            "src": "/categorias",
+            "dest": "/server.js",
+            "methods": [
+                "GET", "POST"
+            ]
+        },
+        {
+            "src": "/videos",
+            "dest": "/server.js",
+            "methods": [
+                "GET","POST"
+            ]
+        }
+    ]
+}
