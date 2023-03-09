@@ -3,28 +3,17 @@
     "builds": [
         {
             "src": "./server.js",
-            "use": "@vercel/node"
+            "use": "@vercel/node",
+            "config": {
+                "includeFiles": ["db.json"]
+            }
         }
     ],
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "/"
-        },
-        {
-            "src": "/categorias",
-            "dest": "server.js",
-            "methods": [
-                "GET", "POST"
-            ]
-        },
-        {
-            "src": "/videos",
-            "dest": "./server.js",
-            "methods": [
-                "GET","POST"
-            ]
+          "src": "/(.*)",
+          "dest": "./server.js"
         }
-    ]
+      ]
      
 }
