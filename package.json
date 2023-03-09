@@ -10,6 +10,7 @@
   "author": "Bruno de Sousa Silva",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "json-server": "^0.17.2"
   }
 }
