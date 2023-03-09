@@ -25,11 +25,6 @@
                 "GET","POST"
             ]
         }
-    ],
-    "functions": {
-        "./server.js": {
-          "memory": 1024,
-          "includeFiles": "./db.json"
-        }
-      }      
+    ]
+     
 }
