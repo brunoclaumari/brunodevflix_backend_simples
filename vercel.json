@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "server.js",
+            "src": "./server.js",
             "use": "@vercel/node"
         }
     ],
@@ -13,17 +13,23 @@
         },
         {
             "src": "/categorias",
-            "dest": "/server.js",
+            "dest": "server.js",
             "methods": [
                 "GET", "POST"
             ]
         },
         {
             "src": "/videos",
-            "dest": "/server.js",
+            "dest": "./server.js",
             "methods": [
                 "GET","POST"
             ]
         }
-    ]
+    ],
+    "functions": {
+        "./server.js": {
+          "memory": 1024,
+          "includeFiles": "./db.json"
+        }
+      }      
 }
